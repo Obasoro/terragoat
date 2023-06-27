@@ -14,8 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: Run Bridgecrew 
-      id: Bridgecrew
+    - name: Run Prisma Cloud 
+      id: Prisma Cloud
       uses: bridgecrewio/bridgecrew-action@master
       with:
         api-key: ${{ secrets.BC_API_KEY }}
